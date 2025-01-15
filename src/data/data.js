@@ -65,4 +65,4 @@ const viaggi = [
     },
 ];
 
-module.exports = viaggi;
+export default viaggi;
