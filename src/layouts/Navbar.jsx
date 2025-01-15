@@ -2,7 +2,7 @@ import { NavLink } from 'react-router';
 
 export default function Navbar() {
     return (
-        <div className="p-3 bg-primary">
+        <div className="p-3 bg-primary position-fixed top-0 w-100 z-3">
             <ul className="d-flex align-items-center px-0">
                 <li className="me-auto">
                     <NavLink
