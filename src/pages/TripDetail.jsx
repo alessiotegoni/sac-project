@@ -1,6 +1,7 @@
 import { useParams } from 'react-router';
 import viaggi from '../data/data';
 import User from '../components/User';
+import Trip from '../components/Trip';
 
 export default function TripDetail() {
     const { id } = useParams();
@@ -8,7 +9,9 @@ export default function TripDetail() {
 
     return (
         <>
-            <p>Dettaglio Viaggio</p>
+            <div>
+                <Trip viaggi={viaggi[id]}></Trip>
+            </div>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {viaggi[id].partecipanti.map((partecipante) => {
                     console.log(partecipante);

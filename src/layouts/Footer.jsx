@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <p>Footer</p>
+            <div className="p-3 bg-secondary text-light">FOOTER</div>
         </>
     );
 }
