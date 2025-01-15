@@ -1,10 +1,12 @@
 const viaggi = [
     {
+        id: 0,
         luogo: 'Roma',
         dataInizio: '2025-03-01',
         dataFine: '2025-03-07',
         partecipanti: [
             {
+                id: 0,
                 nome: 'Mario',
                 cognome: 'Rossi',
                 cellulare: '3331234567',
@@ -16,6 +18,7 @@ const viaggi = [
                 },
             },
             {
+                id: 1,
                 nome: 'Giulia',
                 cognome: 'Bianchi',
                 cellulare: '3459876543',
@@ -29,11 +32,13 @@ const viaggi = [
         ],
     },
     {
+        id: 1,
         luogo: 'Milano',
         dataInizio: '2025-04-10',
         dataFine: '2025-04-15',
         partecipanti: [
             {
+                id: 0,
                 nome: 'Andrea',
                 cognome: 'Verdi',
                 cellulare: '3465432178',
@@ -45,6 +50,7 @@ const viaggi = [
                 },
             },
             {
+                id: 1,
                 nome: 'Sara',
                 cognome: 'Neri',
                 cellulare: '3497654321',
